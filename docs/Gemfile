@@ -1,0 +1,21 @@
+source "https://rubygems.org"
+
+# Add the dependency on jekyll and remove the dependency on github-pages if the
+# website will not be hosted in GitHub pages.
+
+# gem "jekyll", "~> 4.0.0"
+gem "minimal-mistakes-jekyll"
+
+group :jekyll_plugins do
+  gem "github-pages"
+end
+
+# Windows and JRuby do not include zoneinfo files. Bundle tzinfo and tzinfo-data
+# on those platforms.
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Install Windows Directory Monitor for improved performance on Windows.
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?

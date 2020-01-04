@@ -1,11 +1,17 @@
 Clark Matthews:
   name: Clark Matthews
   bio: Seattle, WA
-  avatar: /assets/images/clark.png
+  avatar: /assets/images/clark.jpg
   links:
-    - label: "Phone: +1 (555) 555-5555"
+    - label: "Phone: +1 (206) 719-9005"
       icon: fas fa-fw fa-phone
-      url: tel:+15555555555
+      url: tel:+12067199005
     - label: "Email: clark@clarksacoustics.com"
       icon: fas fa-fw fa-envelope
       url: mailto:clark@clarksacoustics.com
+    - label: "UBI: 604376630 001 0001"
+      icon: fas fa-fw fa-id-card
+      url: "#"
+    - label: "UCD-4131812-CGL-19"
+      icon: fas fa-fw fa-id-card
+      url: "#"

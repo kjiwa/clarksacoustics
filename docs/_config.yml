@@ -9,6 +9,10 @@ url: https://clarksacoustics.com
 # This site uses the "Minimal Mistakes" theme by Michael Rose. Theme
 # documentation is available at https://mmistakes.github.io/minimal-mistakes/.
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Plugin settings
 plugins:

@@ -23,4 +23,10 @@ header:
   <a href="/assets/images/portfolio-20200101_162458.jpg">
     <img src="/assets/images/portfolio-20200101_162458-tn.jpg">
   </a>
+  <a href="/assets/images/portfolio-20200327-bkc-1.jpg">
+    <img src="/assets/images/portfolio-20200327-bkc-1-tn.jpg">
+  </a>
+  <a href="/assets/images/portfolio-20200327-bkc-2.jpg">
+    <img src="/assets/images/portfolio-20200327-bkc-2-tn.jpg">
+  </a>
 </figure>

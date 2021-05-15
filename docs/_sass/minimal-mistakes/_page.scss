@@ -93,7 +93,7 @@ body {
 			position: relative;
 			left: 0.5em;
 			opacity: 0;
-			font-size: 0.8em;
+			font-size: 0.8rem;
 			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
 			-moz-transition: opacity 0.2s ease-in-out 0.1s;
 			-o-transition: opacity 0.2s ease-in-out 0.1s;
@@ -108,7 +108,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8rem;
   }
 
   /* paragraph indents */
@@ -201,11 +201,13 @@ body {
     }
 
     .page__lead {
+      margin-top: 4px;
       max-width: $medium;
     }
 
     .page__title {
       font-size: $type-size-2;
+      margin-bottom: 4px;
 
       @include breakpoint($small) {
         font-size: $type-size-1;

@@ -13,7 +13,6 @@ url-pretty: clarksacoustics.com
 
 site-css:
   - /assets/css/main.css
-  - /assets/css/gallery.css
 
 defaults:
   -
@@ -21,7 +20,6 @@ defaults:
       path: ""
     values:
       layout: page
-      before-content: before-content.html
       ext-css: "https://fonts.googleapis.com/css?family=Noto+Sans"
       footer-extra: footer-extra.html
 

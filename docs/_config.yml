@@ -1,19 +1,36 @@
-# Site settings
-repository: kjiwa/clarksacoustics
-title: Clark's Acoustics
-email: clark@clarksacoustics.com
+author: Clark's Acoustics
 description: Suspension ceiling grid systems and sound absorption systems.
+email: clark@clarksacoustics.com
+title: Clark's Acoustics
 url: https://clarksacoustics.com
 
-# Theme settings
-# This site uses the "Minimal Mistakes" theme by Michael Rose. Theme
-# documentation is available at https://mmistakes.github.io/minimal-mistakes/.
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default"
-sass:
-  sass_dir: _sass
-  style: compressed
+remote_theme: daattali/beautiful-jekyll
+remove-ads: true
 
-# Plugin settings
+avatar: /assets/images/clark.jpg
+round-avatar: true
+url-pretty: clarksacoustics.com
+
+site-css:
+  - /assets/css/main.css
+  - /assets/css/gallery.css
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+      before-content: before-content.html
+      ext-css: "https://fonts.googleapis.com/css?family=Noto+Sans"
+      footer-extra: footer-extra.html
+
+navbar-links:
+  Portfolio: portfolio
+  Contact: contact
+
+navbar-extra: navbar-extra.html
+
 plugins:
-  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-sitemap

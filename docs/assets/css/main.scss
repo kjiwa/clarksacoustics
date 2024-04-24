@@ -1,8 +1,16 @@
 ---
-# A front matter section is required in the main Sass file.
+layout: null
 ---
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+}
 
-@charset "utf-8";
+.intro-header .big-img {
+    margin-top: 0;
+    padding-bottom: 0;
+}
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+.intro-header.big-img .page-heading {
+    padding: 1rem 0 4rem 0;
+}

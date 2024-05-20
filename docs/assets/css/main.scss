@@ -6,6 +6,11 @@ body {
     font-size: 1rem;
 }
 
+main {
+    position: relative;
+    top: -2em;
+}
+
 .intro-header .big-img {
     margin-top: 0;
     padding-bottom: 0;
@@ -13,6 +18,16 @@ body {
 
 .intro-header.big-img .page-heading {
     padding: 2rem 0 2rem 0;
+}
+
+.intro-header .page-heading h1 {
+    min-height: 100px;
+    position: relative;
+    top: 1ex;
+}
+
+.intro-header .page-heading .page-subheading {
+    margin-top: 1em;
 }
 
 .portfolio img {
